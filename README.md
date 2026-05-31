@@ -1,34 +1,37 @@
-# 🟢 Juice Shaders Lite — Free Game-Feel Shaders for Godot 4
+# Juice Shaders Lite — free game-feel shaders for Godot 4
 
-Three drop-in 2D shaders that add instant "juice" to your Godot 4 game. Free and
-MIT-licensed — a taste of the full [**Juice Shaders**](https://janeduardo19.itch.io/) pack (12 effects).
+I'm a solo dev making a game in Godot 4. These are 3 of the small "feel" shaders I
+use a lot, packaged free for anyone. They're plain `canvas_item` shaders — drop
+them in, add a ShaderMaterial to a sprite, tweak the parameters.
 
 | Hit Flash | Outline | Dissolve |
 |---|---|---|
 | ![hit flash](media/hit_flash.gif) | ![outline](media/outline.gif) | ![dissolve](media/dissolve.gif) |
 
-## What's included (free)
-- **hit_flash** — flash a sprite to a solid colour when it takes damage
-- **outline** — clean pixel outline for hover/selection states
+## What's here (free, MIT)
+- **hit_flash** — flash a sprite to a colour when it takes damage
+- **outline** — pixel outline for hover / selection
 - **dissolve** — burn a sprite away (or in) with a glowing edge
 
-All plain `canvas_item` shaders. Light on mobile/web. Tested on Godot 4.2–4.4.
+Each shader has a header comment explaining its parameters and how to animate it
+with a Tween.
 
 ## Install
-**From the Godot editor:** AssetLib tab → search "Juice Shaders Lite" → Download → Install.
+**From Godot:** AssetLib tab → search "Juice Shaders Lite" → Download → Install.
 
-**Manually:** copy the `addons/juice_shaders_lite/` folder into your project, then
-add a **ShaderMaterial** to any Sprite2D and load a `.gdshader` from its `shaders/`
-folder. Each shader's header comment explains its parameters and how to animate it.
+**Manually:** copy the `addons/juice_shaders_lite/` folder into your project, add a
+ShaderMaterial to any Sprite2D, and load a `.gdshader` from its `shaders/` folder.
 
-## Get the full pack (12 shaders)
-**Juice Shaders** adds 9 more: **CRT · shockwave · water · palette remap · dither ·
-shine sweep · pixelate · wind sway · grayscale fade** — fully documented, with
-copy-paste GDScript for every effect.
+## The full pack (12 shaders)
+If these are useful, I put the 12 shaders I reach for most into a paid pack. It
+adds CRT, shockwave, water, palette remap, dither, shine sweep, pixelate, wind
+sway and grayscale fade — all documented, with copy-paste GDScript:
 
-### 👉 [**Get all 12 on itch.io**](https://janeduardo19.itch.io/)  *(update to the exact pack URL)*
+**https://janeduardo19.itch.io/juice-shaders-12-game-feel-shaders-for-godot-4**
+
+The little frog in the GIFs is my own pixel art from the game I'm building, a
+folklore deckbuilder called *Sinless Land*.
 
 ---
 
-License: [MIT](LICENSE). Made by **Jan Eduardo** ([janeduardo19](https://janeduardo19.itch.io/)),
-maker of the folklore deckbuilder *Sinless Land*.
+License: [MIT](LICENSE). Feedback or an effect you'd like added? Open an issue — I read them.
